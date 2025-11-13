@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Ammara Portfolio Test</title>
+<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ammara Majeed | Portfolio</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #007bff;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #007bff;
+    }
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .skill, .project {
+      flex: 1 1 250px;
+      background: #f0f8ff;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #007bff;
+      color: white;
+      margin-top: 30px;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello Ammara!</h1>
-  <p>Your GitHub Pages works perfectly 🎉</p>
-<link rel="stylesheet" href="style.css">
+  <header>
+    <h1>Ammara Majeed</h1>
+    <p>Web Developer | AI & Data Science Enthusiast | Mobile App Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I’m Ammara, a passionate beginner web developer and data scientist. I love creating websites, working with AI models, and building mobile applications. My goal is to deliver creative, efficient, and user-friendly digital solutions.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">🌐 Front-End Development (HTML, CSS, JS, Bootstrap)</div>
+      <div class="skill">⚙️ Back-End Development (Node.js, PHP, MySQL)</div>
+      <div class="skill">🤖 Artificial Intelligence & Data Science (Python, ML)</div>
+      <div class="skill">📱 Mobile App Development (Flutter, Android)</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Responsive Website</h3>
+        <p>A clean and modern portfolio website made using HTML, CSS, and JS.</p>
+      </div>
+      <div class="project">
+        <h3>AI-Based Detection System</h3>
+        <p>Machine learning project for detecting network intrusions using Python.</p>
+      </div>
+      <div class="project">
+        <h3>Mobile App UI Design</h3>
+        <p>Simple Flutter-based mobile app design for task management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:ammaramajeed@example.com">ammaramajeed@example.com</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/ammaramajeed</a></p>
+    <p>Fiverr: <a href="#">fiverr.com/yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Ammara Majeed | Portfolio</p>
+  </footer>
 </body>
 </html>
